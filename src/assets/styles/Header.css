@@ -1,0 +1,35 @@
+.header {
+    background-color: #202020;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.headerLink {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    .header {
+        background-color: #e62429; /* Change header color for smaller screens */
+    }
+
+    .headerLink {
+        margin: 0 5px; /* Reduce margin for smaller screens */
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .header {
+        display: flex; /* Change header display for larger screens */
+        justify-content: space-between;
+    }
+
+    .headerLink {
+        font-size: 1.2rem; /* Increase font size for larger screens */
+    }
+}

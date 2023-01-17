@@ -1,0 +1,22 @@
+.DataDisplayer-slider-container {
+    position: relative;
+    height: 500px;
+}
+
+.DataDisplayer-slides-container {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.DataDisplayer-slide {
+    width: 100%;
+    flex: 0 0 100%;
+    display: none;
+}
+
+.DataDisplayer-slide.active {
+    display:inline-block;
+}

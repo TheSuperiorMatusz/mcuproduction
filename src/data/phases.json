@@ -1,0 +1,30 @@
+{
+  "phases": [
+    {
+      "name": "Phase One",
+      "description": "The first phase of the Marvel Cinematic Universe began in 2008 with the release of Iron Man and ended in 2012 with the release of The Avengers. This phase introduced audiences to key characters such as Iron Man, Thor, Captain America, and Hulk, and set the stage for the larger interconnected universe to come.",
+      "releaseDate": "2008-2012"
+    },
+    {
+      "name": "Phase Two",
+      "description": "The second phase of the Marvel Cinematic Universe began in 2013 with the release of Iron Man 3 and ended in 2015 with the release of Ant-Man. This phase saw the introduction of new characters such as Guardians of the Galaxy and saw the Avengers reunite to take on new threats.",
+      "releaseDate": "2013-2015"
+    },
+    {
+      "name": "Phase Three",
+      "description": "The third phase of the Marvel Cinematic Universe began in 2016 with the release of Captain America: Civil War and ended in 2019 with the release of Spider-Man: Far From Home. This phase saw the introduction of new characters such as Black Panther, Doctor Strange and Captain Marvel, and brought many of the characters' storylines to a close.",
+      "releaseDate": "2016-2019"
+    },
+    {
+      "name": "Phase Four",
+      "description": "Phase Four of the Marvel Cinematic Universe is set to focus on new characters and storylines, with plans for several upcoming films and Disney+ series. The phase will begin in 2021 and will include films such as Black Widow, Eternals, Spider-Man: No Way Home, Doctor Strange in the Multiverse of Madness, Thor: Love and Thunder and Black Panther: Wakanda Forever",
+      "releaseDate": "2021-2023"
+    },
+    {
+      "name": "Phase Five",
+      "description": "Phase Five of the Marvel Cinematic Universe is currently in development, with plans for several upcoming films and Disney+ series. The phase is set to begin in 2023 and will include films such as Ant-Man and the Wasp: Quantumania, Blade and Guardians of the Galaxy Vol 3 and Loki season 2",
+      "releaseDate": "2023-2025"
+    }
+  ]
+}
+
