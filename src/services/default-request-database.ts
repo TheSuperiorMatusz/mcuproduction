@@ -1,9 +1,9 @@
 import axios from 'axios';
 
 
-const defaultRequest = axios.create({
+const defaultRequestDatabase = axios.create({
     baseURL: 'https://mcuapi.herokuapp.com/api/v1',
 });
 
 
-export default defaultRequest;
+export default defaultRequestDatabase;

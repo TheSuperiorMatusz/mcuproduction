@@ -1,0 +1,17 @@
+.showContainer {
+    display: flex;
+    height: 100%;
+}
+
+.showContainer img {
+    max-height: 100%;
+}
+
+.imageContainer img {
+    width: 270px;
+    max-width: 270px;
+}
+
+.overviewContainer {
+    font-size: 12px;
+}

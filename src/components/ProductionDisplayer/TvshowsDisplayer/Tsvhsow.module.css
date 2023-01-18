@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    margin: 30px 0;
+}
+
+.tvShowContainer {
+    display: flex;
+    height: 400px;
+    width: 70%;
+}
+
+.tvShowContainer div:not(:first-child) {
+    margin-left: 10px;
+}
+
+.sliderButton {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+
+}
+
+.sliderButton:hover {
+    cursor: pointer;
+    background: gray;
+}

@@ -1,13 +1,15 @@
 .animated-text-container {
     overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
 
 }
-.animated-text-container-background{
-    background-position: center; /* position of the background-image */
-    background-size: cover; /* cover the whole container */
+
+.animated-text-container-background {
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url(../images/movieCollection.jpg);
-    height: 50vh;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,8 +19,14 @@
 .animated-text {
     animation: animateText 2s ease-in-out forwards;
     transform: translateY(-100%);
-    font-size: 7rem;
+    font-size: 112px;
     color: #e62429;
+}
+
+@media (min-width: 768px) {
+    .animated-text {
+        font-size: 112px;
+    }
 }
 
 @keyframes animateText {

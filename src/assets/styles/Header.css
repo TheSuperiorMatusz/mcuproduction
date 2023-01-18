@@ -2,7 +2,7 @@
     background-color: #202020;
     color: white;
     text-align: center;
-    padding: 1rem;
+    padding: 16px;
 }
 
 .headerLink {
@@ -30,6 +30,6 @@
     }
 
     .headerLink {
-        font-size: 1.2rem; /* Increase font size for larger screens */
+        font-size: 19px; /* Increase font size for larger screens */
     }
 }
