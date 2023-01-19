@@ -1,0 +1,36 @@
+.header {
+    background-color: #202020;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    height: 25px;
+}
+
+.headerLink {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .headerLink {
+        margin: 0 5px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .headerLink {
+        font-size: 19px;
+    }
+}

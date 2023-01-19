@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './MovieDisplayer.module.css';
+import '../../../assets/styles/ProductionDisplayer/MovieDisplayer.css';
 
 import { useSlider } from '../ProductionSlider/useSlider';
 import { MovieItem } from './MovieItem/MovieItem';
@@ -34,12 +34,12 @@ export const MovieDisplayer = () => {
   };
 
   return (
-    <section className={styles.container}>
-      <button onClick={prevSlide} className={styles.sliderButton}>
+    <section id="films-container">
+      <button onClick={prevSlide} className="sliderButton">
         Previous Film
       </button>
-      <div className={styles.moviesContainer}>{renderMovies()}</div>
-      <button onClick={nextSlide} className={styles.sliderButton}>
+      <div className="movies-container">{renderMovies()}</div>
+      <button onClick={nextSlide} className="sliderButton">
         Next film
       </button>
     </section>

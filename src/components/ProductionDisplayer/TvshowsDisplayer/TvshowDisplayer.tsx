@@ -3,7 +3,7 @@ import api from '../../../services/default-request-database'
 import { useSlider } from '../ProductionSlider/useSlider'
 import {TvShow} from '../../../services/apiInterfaces/SeriesInterface';
 import {TvshowItem} from './TvshowItem/TvshowItem';
-import styles from './Tsvhsow.module.css'
+import  '../../../assets/styles/ProductionDisplayer/Tsvhsow.css'
 
 interface FetchTvShowResponse{
     data: TvShow[];
@@ -31,12 +31,12 @@ export const TvshowDisplayer = () => {
     };
 
     return(
-        <section className={styles.container}>
-            <button onClick={prevSlide} className={styles.sliderButton}>
+        <section id="series-container">
+            <button onClick={prevSlide} className="sliderButton">
                Previous Show
             </button>
-            <div className={styles.tvShowContainer}>{renderTvShows()}</div>
-            <button onClick={nextSlide} className={styles.sliderButton}>
+            <div className="tvShowContainer">{renderTvShows()}</div>
+            <button onClick={nextSlide} className="sliderButton">
                 Next Show
             </button>
         </section>

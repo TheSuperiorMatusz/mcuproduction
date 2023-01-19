@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../../assets/styles/Phases.css';
+import '../../assets/styles/information/Phases.css';
 import phases from '../../data/phases.json'
 interface Phase {
     name: string;

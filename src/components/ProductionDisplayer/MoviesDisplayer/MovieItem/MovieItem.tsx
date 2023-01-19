@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from './MovieItem.module.css';
+import '../../../../assets/styles/ProductionDisplayer/Item/MovieItem.css';
 import { Movie } from '../../../../services/apiInterfaces/MovieInterface';
 
 interface MovieProps {
@@ -18,15 +18,15 @@ export const MovieItem = ({
         return overview
     }
 
-  return (
-    <div className={styles.movieContainer} key={id}>
-      <div className={styles.imageContainer}>
+    return (
+    <div className="productionContainer" key={id}>
+      <div className="imageContainerItem">
         <img src={cover_url} alt={title} />
       </div>
       <div>
         <h1>{title}</h1>
         <h2>Description</h2>
-        <p className={styles.overviewContainer}>{checkOverview(overview)}</p>
+        <p className="overviewContainer">{checkOverview(overview)}</p>
         <h2>Phase: {phase}</h2>
         <h2>Box office: {box_office} $</h2>
       </div>

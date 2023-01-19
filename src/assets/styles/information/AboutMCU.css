@@ -1,0 +1,36 @@
+#about-mcu-container {
+    background-image: url(../../images/cinema.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 32px;
+    font-size: 24rem;
+    font-weight: bold;
+}
+
+.mcu-text {
+    color: white;
+    font-size: 26px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 600px) {
+    #about-mcu-container {
+        padding: 16px;
+        font-size: 18px;
+    }
+    .mcu-text {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #about-mcu-container {
+        padding: 8px;
+        font-size: 14px;
+    }
+    .mcu-text {
+        font-size: 16px;
+    }
+}

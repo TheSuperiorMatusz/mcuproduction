@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import '../../assets/styles/Animation.css';
-const AnimatedText: React.FC = () => {
+import '../../assets/styles/information/Animation.css';
+const AnimatedText = () => {
     const [animated, setAnimated] = useState(false);
 
     useEffect(() => {

@@ -24,6 +24,10 @@
       "name": "Phase Five",
       "description": "Phase Five of the Marvel Cinematic Universe is currently in development, with plans for several upcoming films and Disney+ series. The phase is set to begin in 2023 and will include films such as Ant-Man and the Wasp: Quantumania, Blade and Guardians of the Galaxy Vol 3 and Loki season 2",
       "releaseDate": "2023-2025"
+    },{
+      "name": "Phase Six",
+      "description": "Phase Six of the Marvel Cinematic Universe is currently in development, with plans for several upcoming films and Disney+ series. The phase is set to begin in 2024-2025 and will include films such as Fantastic Four, Avengers: Kang Dynasty and Avengers: Secret Wars.",
+      "releaseDate": "2024-2025"
     }
   ]
 }

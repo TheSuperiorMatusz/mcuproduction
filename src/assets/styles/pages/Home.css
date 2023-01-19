@@ -9,6 +9,7 @@ body {
   background-color: var(--main-color);
   color: var(--third-color);
   font-size: var(--font-size);
+  font:800 14px/1 Roboto Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
 }
 
 @media only screen and (max-width: 600px) {

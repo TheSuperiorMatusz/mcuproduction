@@ -1,0 +1,54 @@
+#purpose {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    color: #202020;
+    overflow: auto;
+}
+
+.imageContainer {
+    width: 25%;
+    padding: 0 10px;
+}
+
+.imageContainer img {
+    width: 100%;
+    max-height: 25%;
+    border: 5px solid #e62429;
+}
+
+.textContainer {
+    width: 75%;
+    padding: 0 10px;
+}
+
+.title {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.paragraph {
+    font-size: 26px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .imageContainer, .textContainer {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .paragraph {
+        font-size: 14px;
+    }
+
+}

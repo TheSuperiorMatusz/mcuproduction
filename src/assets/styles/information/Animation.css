@@ -1,29 +1,40 @@
-.animated-text-container {
-    overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.5);
-
-}
 
 .animated-text-container-background {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(../images/movieCollection.jpg);
-    height: 500px;
+    background-image: url(../../images/movieCollection.jpg);
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 80px;
 }
 
+.animated-text-container {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+
+
+}
 .animated-text {
     animation: animateText 2s ease-in-out forwards;
     transform: translateY(-100%);
-    font-size: 112px;
+    font-size: 48px;
     color: #e62429;
+    height: 300px;
+    width: 100%;
+
 }
 
 @media (min-width: 768px) {
+    .animated-text {
+        font-size: 72px;
+    }
+}
+
+@media (min-width: 992px) {
     .animated-text {
         font-size: 112px;
     }

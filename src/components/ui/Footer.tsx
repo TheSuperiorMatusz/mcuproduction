@@ -1,10 +1,18 @@
 import React from 'react';
-import '../../assets/styles/Footer.css'
+import  '../../assets/styles/ui/Footer.css'
 
-const Footer: React.FC = () => {
+const Footer = () => {
     return (
         <footer className="footer" >
-            <p>This project from framework Classes</p>
+            <div className="footerContainer">
+                <p className="project">This project from framework Classes</p>
+                <div className="footerLinks">
+                    <a href="#" className="link">Home</a>
+                    <a href="#" className="link">About</a>
+                    <a href="#" className="link">Contact</a>
+                </div>
+                <p className="copyright">Copyright © 2023 Maciej Matusz</p>
+            </div>
         </footer>
     );
 };

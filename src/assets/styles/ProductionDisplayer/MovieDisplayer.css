@@ -1,4 +1,5 @@
-.container {
+#films-container {
+  height: 450px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -7,28 +8,30 @@
   background:white ;
 }
 
-.moviesContainer {
+.movies-container {
   display: flex;
   height: 400px;
   width: 70%;
 }
 
-.moviesContainer div:not(:first-child) {
+.movies-container div:not(:first-child) {
   margin-left:10px;
 }
 
-.sliderButton {
+#films-container button {
   width: 100px;
   height: 40px;
-  border-radius: 12px;
   text-transform: uppercase;
   color: white;
   background: #e62429;
   font:800 14px/1 Roboto Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
+  border: transparent;
+  clip-path: polygon(10% 0%, 100% 0, 100% 75%, 90% 100%, 0 100%, 0 25%);
+  font-size: 0.9rem;
 
 }
 
-.sliderButton:hover {
+#films-container button:hover {
   cursor: pointer;
   background: #202020;
 }

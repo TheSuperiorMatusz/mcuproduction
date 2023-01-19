@@ -1,4 +1,4 @@
-.container {
+#series-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,18 +16,21 @@
     margin-left: 10px;
 }
 
-.sliderButton {
+#series-container button{
     width: 100px;
     height: 40px;
     border-radius: 5px;
     text-transform: uppercase;
-    background: transparent;
-    border: 1px solid white;
-    color: white;
+    color: #e62429;
+    background: white ;
+    font:800 14px/1 Roboto Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
+    border: transparent;
+    clip-path: polygon(10% 0%, 100% 0, 100% 75%, 90% 100%, 0 100%, 0 25%);
+    font-size: 0.9rem;
 
 }
 
-.sliderButton:hover {
+#series-container button:hover {
     cursor: pointer;
     background: gray;
 }

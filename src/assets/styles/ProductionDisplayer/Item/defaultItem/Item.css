@@ -1,0 +1,31 @@
+.productionContainer {
+  display: flex;
+  height: 100%;
+  color: #202020;
+}
+
+
+.productionContainer img {
+  max-height: 100%;
+}
+
+.imageContainerItem{
+  width: 270px;
+  max-width: 270px;
+}
+
+.overviewContainer {
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  .overviewContainer {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 400px) {
+  .overviewContainer {
+    font-size: 20px;
+  }
+}
