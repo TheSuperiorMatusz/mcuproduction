@@ -1,28 +1,21 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import '../../../assets/styles/ProductionDisplayer/MovieDisplayer.css';
-
 import { useSlider } from '../ProductionSlider/useSlider';
 import { MovieItem } from './MovieItem/MovieItem';
-import api from '../../../services/default-request-database';
 import { Movie } from '../../../services/apiInterfaces/MovieInterface';
+import {fetchMovies} from "../../../services/fetch/fetchMovies";
 
-interface FetchMoviesResponse {
-  data: Movie[];
-}
-
-const fetchMovies = () => api.get<FetchMoviesResponse>('/movies');
 
 export const MovieDisplayer = () => {
-  const [movies, setMovies] = React.useState<Movie[]>([]);
+    const [movies, setMovies] = useState<Movie[]>([]);
   const { currentSlideIndex, nextSlide, prevSlide } = useSlider({
     numberOfItems: movies.length-1,
   });
-
-  React.useEffect(() => {
-    fetchMovies()
-      .then((res) => setMovies(res.data.data))
-      .catch((err) => console.error(err));
-  }, []);
+    useEffect(() => {
+        fetchMovies()
+            .then((res) => setMovies(res.data.data))
+            .catch((err) => console.error(err));
+    }, []);
 
   const renderMovies = () => {
     return movies.map(

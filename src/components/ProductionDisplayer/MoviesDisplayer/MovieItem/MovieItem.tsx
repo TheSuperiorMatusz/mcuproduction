@@ -25,7 +25,7 @@ export const MovieItem = ({
       </div>
       <div>
         <h1>{title}</h1>
-        <h2>Description</h2>
+        <h2>Description:</h2>
         <p className="overviewContainer">{checkOverview(overview)}</p>
         <h2>Phase: {phase}</h2>
         <h2>Box office: {box_office} $</h2>

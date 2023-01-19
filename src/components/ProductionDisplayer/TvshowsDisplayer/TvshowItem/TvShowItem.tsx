@@ -4,10 +4,15 @@ import "../../../../assets/styles/ProductionDisplayer/Item/ShowItem.css"
 interface TvshowProps {
     show: TvShow
 }
-export const TvshowItem =({
-    show:{id,cover_url,title,season,overview},
+export const TvShowItem =({
+    show:{id,cover_url,title,season,overview,phase},
 }: TvshowProps) =>{
-
+    const checkOverview = (overview:string) => {
+        if(overview===null){
+            return 'To be announced'
+        }
+        return overview
+    }
     return (
         <div className="productionContainer" key={id}>
             <div className="imageContainerItem">
@@ -16,8 +21,9 @@ export const TvshowItem =({
             <div>
                 <h1 className="heading-level">{title}</h1>
                 <h2 className="heading-level">Season: {season}</h2>
-                <h2 className="heading-level">Description</h2>
-                <p className="text">{overview}</p>
+                <h2 className="heading-level">Phase: {phase}</h2>
+                <h2 className="heading-level">Description:</h2>
+                <p className="text">{checkOverview(overview)}</p>
             </div>
         </div>
     )
