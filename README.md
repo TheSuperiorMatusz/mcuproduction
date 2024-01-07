@@ -13,7 +13,7 @@ Make sure you have Node.js and npm installed on your machine.
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/marvel-cinematic-universe-showcase.git
+git clone https://github.com/your-username/mcu-production.git
 ```
 Navigate to the project directory:
 
